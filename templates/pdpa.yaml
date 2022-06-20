@@ -27,6 +27,7 @@ projects:
         COMPANY_CONTACT_EMAIL: "contact@codium.co"
         COMPANY_NAME: ""
         COMPANY_SHORT_NAME: ""
+        CONSENT_EMAIL_SUBJECT: "PDPA Consent Request/แบบขอแสดงความยินยอมเกี่ยวกับ พรบ.คุ้มครองข้อมูลส่วนบุคคล"
         DEFF_PASSWORD: ""
         DEFF_SALT: ""
         EMAIL_HOST: ${standard.demo.EMAIL_HOST}
