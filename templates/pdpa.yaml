@@ -29,15 +29,15 @@ projects:
         COMPANY_SHORT_NAME: ""
         DEFF_PASSWORD: ""
         DEFF_SALT: ""
-        EMAIL_HOST: smtp.sendgrid.net
-        EMAIL_HOST_PASSWORD: ""
-        EMAIL_HOST_USER: apikey
-        EMAIL_PORT: "587"
+        EMAIL_HOST: ${standard.demo.EMAIL_HOST}
+        EMAIL_HOST_PASSWORD: ${standard.demo.EMAIL_HOST_PASSWORD}
+        EMAIL_HOST_USER: ${standard.demo.EMAIL_HOST_USER}
+        EMAIL_PORT: ${standard.demo.EMAIL_PORT}
         EMAIL_SENDER_NAME: ""
-        EMAIL_USE_TLS: "true"
+        EMAIL_USE_TLS: ${standard.demo.EMAIL_USE_TLS}
         FIELD_ENCRYPTION_KEYS: ""
         SENTRY_DSN: ""
         SENTRY_ENVIRONMENT: PROD
-        SET_PROXY_SSL_HEADER: "true"
-        THAIBULKSMS_API_KEY: ""
-        THAIBULKSMS_API_SECRET: ""
+        SET_PROXY_SSL_HEADER: ${standard.demo.SET_PROXY_SSL_HEADER}
+        THAIBULKSMS_API_KEY: ${standard.demo.THAIBULKSMS_API_KEY}
+        THAIBULKSMS_API_SECRET: ${standard.demo.THAIBULKSMS_API_SECRET}
