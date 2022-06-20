@@ -1,0 +1,39 @@
+projects:
+  - name: pdpa-xxxx
+
+    environments:
+      - name: CI
+        slug: ci
+        configs:
+          - slug: ci
+          - slug: ci_prod
+
+      - name: Production
+        slug: prod
+        configs:
+          - slug: prod
+
+    secrets:
+      ci:
+        REMOTE_PATH: /home/ubuntu/pdpa
+        SSH_PORT: 22222
+        USERNAME: ubuntu
+
+      ci_prod:
+        DOMAIN_NAME: ""
+        HOST: ""
+
+      prod:
+        DEFF_PASSWORD: ""
+        DEFF_SALT: ""
+        EMAIL_HOST: smtp.sendgrid.net
+        EMAIL_HOST_PASSWORD: ""
+        EMAIL_HOST_USER: apikey
+        EMAIL_PORT: 587
+        EMAIL_USE_TLS: true
+        FIELD_ENCRYPTION_KEYS: ""
+        SENTRY_DSN: ""
+        SENTRY_ENVIRONMENT: PROD
+        SET_PROXY_SSL_HEADER: true
+        THAIBULKSMS_API_KEY: ""
+        THAIBULKSMS_API_SECRET: ""
