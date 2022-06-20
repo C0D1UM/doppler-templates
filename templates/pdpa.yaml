@@ -25,6 +25,7 @@ projects:
 
       prod:
         COMPANY_CONTACT_EMAIL: "contact@codium.co"
+        COMPANY_LOGO: "logo.png"
         COMPANY_NAME: ""
         COMPANY_SHORT_NAME: ""
         CONSENT_EMAIL_SUBJECT: "PDPA Consent Request/แบบขอแสดงความยินยอมเกี่ยวกับ พรบ.คุ้มครองข้อมูลส่วนบุคคล"
@@ -37,6 +38,7 @@ projects:
         EMAIL_SENDER_NAME: ""
         EMAIL_USE_TLS: ${standard.demo.EMAIL_USE_TLS}
         FIELD_ENCRYPTION_KEYS: ""
+        POSTGRES_PASSWORD: ""
         SENTRY_DSN: ""
         SENTRY_ENVIRONMENT: PROD
         SET_PROXY_SSL_HEADER: ${standard.demo.SET_PROXY_SSL_HEADER}
