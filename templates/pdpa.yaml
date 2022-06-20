@@ -24,12 +24,16 @@ projects:
         HOST: ""
 
       prod:
+        COMPANY_CONTACT_EMAIL: "contact@codium.co"
+        COMPANY_NAME: ""
+        COMPANY_SHORT_NAME: ""
         DEFF_PASSWORD: ""
         DEFF_SALT: ""
         EMAIL_HOST: smtp.sendgrid.net
         EMAIL_HOST_PASSWORD: ""
         EMAIL_HOST_USER: apikey
         EMAIL_PORT: "587"
+        EMAIL_SENDER_NAME: ""
         EMAIL_USE_TLS: "true"
         FIELD_ENCRYPTION_KEYS: ""
         SENTRY_DSN: ""
