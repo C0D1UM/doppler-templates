@@ -31,16 +31,16 @@ projects:
         CONSENT_EMAIL_SUBJECT: "PDPA Consent Request/แบบขอแสดงความยินยอมเกี่ยวกับ พรบ.คุ้มครองข้อมูลส่วนบุคคล"
         DEFF_PASSWORD: ""
         DEFF_SALT: ""
-        EMAIL_HOST: ${standard.demo.EMAIL_HOST}
-        EMAIL_HOST_PASSWORD: ${standard.demo.EMAIL_HOST_PASSWORD}
-        EMAIL_HOST_USER: ${standard.demo.EMAIL_HOST_USER}
-        EMAIL_PORT: ${standard.demo.EMAIL_PORT}
+        EMAIL_HOST: ${pdpa-standard.demo.EMAIL_HOST}
+        EMAIL_HOST_PASSWORD: ${pdpa-standard.demo.EMAIL_HOST_PASSWORD}
+        EMAIL_HOST_USER: ${pdpa-standard.demo.EMAIL_HOST_USER}
+        EMAIL_PORT: ${pdpa-standard.demo.EMAIL_PORT}
         EMAIL_SENDER_NAME: ""
-        EMAIL_USE_TLS: ${standard.demo.EMAIL_USE_TLS}
+        EMAIL_USE_TLS: ${pdpa-standard.demo.EMAIL_USE_TLS}
         FIELD_ENCRYPTION_KEYS: ""
         POSTGRES_PASSWORD: ""
         SENTRY_DSN: ""
         SENTRY_ENVIRONMENT: PROD
-        SET_PROXY_SSL_HEADER: ${standard.demo.SET_PROXY_SSL_HEADER}
-        THAIBULKSMS_API_KEY: ${standard.demo.THAIBULKSMS_API_KEY}
-        THAIBULKSMS_API_SECRET: ${standard.demo.THAIBULKSMS_API_SECRET}
+        SET_PROXY_SSL_HEADER: ${pdpa-standard.demo.SET_PROXY_SSL_HEADER}
+        THAIBULKSMS_API_KEY: ${pdpa-standard.demo.THAIBULKSMS_API_KEY}
+        THAIBULKSMS_API_SECRET: ${pdpa-standard.demo.THAIBULKSMS_API_SECRET}
